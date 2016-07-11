@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+.box {
+    margin: 40px;
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+    font-size: 24px;
+}
+
+.cor {
+    position: absolute;
+    top: -40px;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border: 20px solid transparent;
+    border-bottom-color: #fff;
+}
+input[type='text']
+{
+	width: 100%;
+	padding:10px;
+}
+.box-shadow {
+    box-shadow: 5px 5px 10px black;
+}
+button
+{
+	margin-top: 20px;
+}
+.drop-shadow {
+    filter: drop-shadow(5px 5px 10px black);
+    -webkit-filter: drop-shadow(5px 5px 10px black);
+}
+</style>
+
+<body>
+    <div class="box box-shadow">
+        <i class="cor"></i> box-shadow
+    </div>
+    <div class="box drop-shadow">
+    	<input type="text" name="" value="">
+    	<button type="" class="submit">提交</button>
+    	<button type="" class="cancle">取消</button>
+    	<i class="cor"></i></div>
+</body>
+
+</html>
